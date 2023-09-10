@@ -1,0 +1,666 @@
+[2023-08-10T10:30:31.554] [ERROR] monthly - [
+  {
+    params: {
+      _readableState: [ReadableState],
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: undefined,
+      socket: [Socket],
+      httpVersionMajor: 1,
+      httpVersionMinor: 1,
+      httpVersion: '1.1',
+      complete: true,
+      rawHeaders: [Array],
+      rawTrailers: [],
+      joinDuplicateHeaders: undefined,
+      aborted: false,
+      upgrade: false,
+      url: '/user/list',
+      method: 'GET',
+      statusCode: null,
+      statusMessage: null,
+      client: [Socket],
+      _consuming: false,
+      _dumped: false,
+      next: [Function: next],
+      baseUrl: '/api/v1',
+      originalUrl: '/api/v1/user/list',
+      _parsedUrl: [Url],
+      params: {},
+      query: {},
+      res: [ServerResponse],
+      logIn: [Function (anonymous)],
+      login: [Function (anonymous)],
+      logOut: [Function (anonymous)],
+      logout: [Function (anonymous)],
+      isAuthenticated: [Function (anonymous)],
+      isUnauthenticated: [Function (anonymous)],
+      _sessionManager: [SessionManager],
+      _passport: [Object],
+      body: {},
+      _parsedOriginalUrl: [Url],
+      route: [Route],
+      [Symbol(kCapture)]: false,
+      [Symbol(kHeaders)]: [Object],
+      [Symbol(kHeadersCount)]: 14,
+      [Symbol(kTrailers)]: null,
+      [Symbol(kTrailersCount)]: 0
+    },
+    error: ReferenceError: convertFieldsToAggregateObject is not defined
+        at exports.List (C:\Users\Symlink\Desktop\Chinmoy\practice\practice2\repository\team.js:63:33)
+        at List (C:\Users\Symlink\Desktop\Chinmoy\practice\practice2\controller\auth.controller.js:4:33)
+        at Layer.handle [as handle_request] (C:\Users\Symlink\Desktop\Chinmoy\practice\practice2\node_modules\express\lib\router\layer.js:95:5)
+        at next (C:\Users\Symlink\Desktop\Chinmoy\practice\practice2\node_modules\express\lib\router\route.js:144:13)
+        at Route.dispatch (C:\Users\Symlink\Desktop\Chinmoy\practice\practice2\node_modules\express\lib\router\route.js:114:3)
+        at Layer.handle [as handle_request] (C:\Users\Symlink\Desktop\Chinmoy\practice\practice2\node_modules\express\lib\router\layer.js:95:5)
+        at C:\Users\Symlink\Desktop\Chinmoy\practice\practice2\node_modules\express\lib\router\index.js:284:15
+        at Function.process_params (C:\Users\Symlink\Desktop\Chinmoy\practice\practice2\node_modules\express\lib\router\index.js:346:12)
+        at next (C:\Users\Symlink\Desktop\Chinmoy\practice\practice2\node_modules\express\lib\router\index.js:280:10)
+        at Function.handle (C:\Users\Symlink\Desktop\Chinmoy\practice\practice2\node_modules\express\lib\router\index.js:175:3)
+  }
+]
+[2023-08-10T10:31:51.190] [ERROR] monthly - [
+  {
+    params: {
+      _readableState: [ReadableState],
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: undefined,
+      socket: [Socket],
+      httpVersionMajor: 1,
+      httpVersionMinor: 1,
+      httpVersion: '1.1',
+      complete: true,
+      rawHeaders: [Array],
+      rawTrailers: [],
+      joinDuplicateHeaders: undefined,
+      aborted: false,
+      upgrade: false,
+      url: '/user/list',
+      method: 'GET',
+      statusCode: null,
+      statusMessage: null,
+      client: [Socket],
+      _consuming: false,
+      _dumped: false,
+      next: [Function: next],
+      baseUrl: '/api/v1',
+      originalUrl: '/api/v1/user/list',
+      _parsedUrl: [Url],
+      params: {},
+      query: {},
+      res: [ServerResponse],
+      logIn: [Function (anonymous)],
+      login: [Function (anonymous)],
+      logOut: [Function (anonymous)],
+      logout: [Function (anonymous)],
+      isAuthenticated: [Function (anonymous)],
+      isUnauthenticated: [Function (anonymous)],
+      _sessionManager: [SessionManager],
+      _passport: [Object],
+      body: {},
+      _parsedOriginalUrl: [Url],
+      route: [Route],
+      [Symbol(kCapture)]: false,
+      [Symbol(kHeaders)]: [Object],
+      [Symbol(kHeadersCount)]: 14,
+      [Symbol(kTrailers)]: null,
+      [Symbol(kTrailersCount)]: 0
+    },
+    error: ReferenceError: convertFieldsToAggregateObject is not defined
+        at exports.List (C:\Users\Symlink\Desktop\Chinmoy\practice\practice2\repository\team.js:63:33)
+        at List (C:\Users\Symlink\Desktop\Chinmoy\practice\practice2\controller\auth.controller.js:4:33)
+        at Layer.handle [as handle_request] (C:\Users\Symlink\Desktop\Chinmoy\practice\practice2\node_modules\express\lib\router\layer.js:95:5)
+        at next (C:\Users\Symlink\Desktop\Chinmoy\practice\practice2\node_modules\express\lib\router\route.js:144:13)
+        at Route.dispatch (C:\Users\Symlink\Desktop\Chinmoy\practice\practice2\node_modules\express\lib\router\route.js:114:3)
+        at Layer.handle [as handle_request] (C:\Users\Symlink\Desktop\Chinmoy\practice\practice2\node_modules\express\lib\router\layer.js:95:5)
+        at C:\Users\Symlink\Desktop\Chinmoy\practice\practice2\node_modules\express\lib\router\index.js:284:15
+        at Function.process_params (C:\Users\Symlink\Desktop\Chinmoy\practice\practice2\node_modules\express\lib\router\index.js:346:12)
+        at next (C:\Users\Symlink\Desktop\Chinmoy\practice\practice2\node_modules\express\lib\router\index.js:280:10)
+        at Function.handle (C:\Users\Symlink\Desktop\Chinmoy\practice\practice2\node_modules\express\lib\router\index.js:175:3)
+  }
+]
+[2023-08-10T10:31:56.782] [ERROR] monthly - [
+  {
+    params: {
+      _readableState: [ReadableState],
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: undefined,
+      socket: [Socket],
+      httpVersionMajor: 1,
+      httpVersionMinor: 1,
+      httpVersion: '1.1',
+      complete: true,
+      rawHeaders: [Array],
+      rawTrailers: [],
+      joinDuplicateHeaders: undefined,
+      aborted: false,
+      upgrade: false,
+      url: '/user/list',
+      method: 'GET',
+      statusCode: null,
+      statusMessage: null,
+      client: [Socket],
+      _consuming: false,
+      _dumped: false,
+      next: [Function: next],
+      baseUrl: '/api/v1',
+      originalUrl: '/api/v1/user/list',
+      _parsedUrl: [Url],
+      params: {},
+      query: {},
+      res: [ServerResponse],
+      logIn: [Function (anonymous)],
+      login: [Function (anonymous)],
+      logOut: [Function (anonymous)],
+      logout: [Function (anonymous)],
+      isAuthenticated: [Function (anonymous)],
+      isUnauthenticated: [Function (anonymous)],
+      _sessionManager: [SessionManager],
+      _passport: [Object],
+      body: {},
+      _parsedOriginalUrl: [Url],
+      route: [Route],
+      [Symbol(kCapture)]: false,
+      [Symbol(kHeaders)]: [Object],
+      [Symbol(kHeadersCount)]: 14,
+      [Symbol(kTrailers)]: null,
+      [Symbol(kTrailersCount)]: 0
+    },
+    error: ReferenceError: convertFieldsToAggregateObject is not defined
+        at exports.List (C:\Users\Symlink\Desktop\Chinmoy\practice\practice2\repository\team.js:63:33)
+        at List (C:\Users\Symlink\Desktop\Chinmoy\practice\practice2\controller\auth.controller.js:4:33)
+        at Layer.handle [as handle_request] (C:\Users\Symlink\Desktop\Chinmoy\practice\practice2\node_modules\express\lib\router\layer.js:95:5)
+        at next (C:\Users\Symlink\Desktop\Chinmoy\practice\practice2\node_modules\express\lib\router\route.js:144:13)
+        at Route.dispatch (C:\Users\Symlink\Desktop\Chinmoy\practice\practice2\node_modules\express\lib\router\route.js:114:3)
+        at Layer.handle [as handle_request] (C:\Users\Symlink\Desktop\Chinmoy\practice\practice2\node_modules\express\lib\router\layer.js:95:5)
+        at C:\Users\Symlink\Desktop\Chinmoy\practice\practice2\node_modules\express\lib\router\index.js:284:15
+        at Function.process_params (C:\Users\Symlink\Desktop\Chinmoy\practice\practice2\node_modules\express\lib\router\index.js:346:12)
+        at next (C:\Users\Symlink\Desktop\Chinmoy\practice\practice2\node_modules\express\lib\router\index.js:280:10)
+        at Function.handle (C:\Users\Symlink\Desktop\Chinmoy\practice\practice2\node_modules\express\lib\router\index.js:175:3)
+  }
+]
+[2023-08-10T10:33:08.962] [ERROR] monthly - [
+  {
+    params: {
+      _readableState: [ReadableState],
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: undefined,
+      socket: [Socket],
+      httpVersionMajor: 1,
+      httpVersionMinor: 1,
+      httpVersion: '1.1',
+      complete: true,
+      rawHeaders: [Array],
+      rawTrailers: [],
+      joinDuplicateHeaders: undefined,
+      aborted: false,
+      upgrade: false,
+      url: '/user/list',
+      method: 'GET',
+      statusCode: null,
+      statusMessage: null,
+      client: [Socket],
+      _consuming: false,
+      _dumped: false,
+      next: [Function: next],
+      baseUrl: '/api/v1',
+      originalUrl: '/api/v1/user/list',
+      _parsedUrl: [Url],
+      params: {},
+      query: {},
+      res: [ServerResponse],
+      logIn: [Function (anonymous)],
+      login: [Function (anonymous)],
+      logOut: [Function (anonymous)],
+      logout: [Function (anonymous)],
+      isAuthenticated: [Function (anonymous)],
+      isUnauthenticated: [Function (anonymous)],
+      _sessionManager: [SessionManager],
+      _passport: [Object],
+      body: {},
+      _parsedOriginalUrl: [Url],
+      route: [Route],
+      [Symbol(kCapture)]: false,
+      [Symbol(kHeaders)]: [Object],
+      [Symbol(kHeadersCount)]: 14,
+      [Symbol(kTrailers)]: null,
+      [Symbol(kTrailersCount)]: 0
+    },
+    error: ReferenceError: convertFieldsToAggregateObject is not defined
+        at exports.List (C:\Users\Symlink\Desktop\Chinmoy\practice\practice2\repository\team.js:63:33)
+        at List (C:\Users\Symlink\Desktop\Chinmoy\practice\practice2\controller\auth.controller.js:4:33)
+        at Layer.handle [as handle_request] (C:\Users\Symlink\Desktop\Chinmoy\practice\practice2\node_modules\express\lib\router\layer.js:95:5)
+        at next (C:\Users\Symlink\Desktop\Chinmoy\practice\practice2\node_modules\express\lib\router\route.js:144:13)
+        at Route.dispatch (C:\Users\Symlink\Desktop\Chinmoy\practice\practice2\node_modules\express\lib\router\route.js:114:3)
+        at Layer.handle [as handle_request] (C:\Users\Symlink\Desktop\Chinmoy\practice\practice2\node_modules\express\lib\router\layer.js:95:5)
+        at C:\Users\Symlink\Desktop\Chinmoy\practice\practice2\node_modules\express\lib\router\index.js:284:15
+        at Function.process_params (C:\Users\Symlink\Desktop\Chinmoy\practice\practice2\node_modules\express\lib\router\index.js:346:12)
+        at next (C:\Users\Symlink\Desktop\Chinmoy\practice\practice2\node_modules\express\lib\router\index.js:280:10)
+        at Function.handle (C:\Users\Symlink\Desktop\Chinmoy\practice\practice2\node_modules\express\lib\router\index.js:175:3)
+  }
+]
+[2023-08-10T10:34:50.403] [ERROR] monthly - [
+  {
+    params: {
+      _readableState: [ReadableState],
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: undefined,
+      socket: [Socket],
+      httpVersionMajor: 1,
+      httpVersionMinor: 1,
+      httpVersion: '1.1',
+      complete: true,
+      rawHeaders: [Array],
+      rawTrailers: [],
+      joinDuplicateHeaders: undefined,
+      aborted: false,
+      upgrade: false,
+      url: '/user/list',
+      method: 'GET',
+      statusCode: null,
+      statusMessage: null,
+      client: [Socket],
+      _consuming: false,
+      _dumped: false,
+      next: [Function: next],
+      baseUrl: '/api/v1',
+      originalUrl: '/api/v1/user/list',
+      _parsedUrl: [Url],
+      params: {},
+      query: {},
+      res: [ServerResponse],
+      logIn: [Function (anonymous)],
+      login: [Function (anonymous)],
+      logOut: [Function (anonymous)],
+      logout: [Function (anonymous)],
+      isAuthenticated: [Function (anonymous)],
+      isUnauthenticated: [Function (anonymous)],
+      _sessionManager: [SessionManager],
+      _passport: [Object],
+      body: {},
+      _parsedOriginalUrl: [Url],
+      route: [Route],
+      [Symbol(kCapture)]: false,
+      [Symbol(kHeaders)]: [Object],
+      [Symbol(kHeadersCount)]: 14,
+      [Symbol(kTrailers)]: null,
+      [Symbol(kTrailersCount)]: 0
+    },
+    error: ReferenceError: Model is not defined
+        at exports.List (C:\Users\Symlink\Desktop\Chinmoy\practice\practice2\repository\team.js:76:25)
+        at List (C:\Users\Symlink\Desktop\Chinmoy\practice\practice2\controller\auth.controller.js:4:33)
+        at Layer.handle [as handle_request] (C:\Users\Symlink\Desktop\Chinmoy\practice\practice2\node_modules\express\lib\router\layer.js:95:5)
+        at next (C:\Users\Symlink\Desktop\Chinmoy\practice\practice2\node_modules\express\lib\router\route.js:144:13)
+        at Route.dispatch (C:\Users\Symlink\Desktop\Chinmoy\practice\practice2\node_modules\express\lib\router\route.js:114:3)
+        at Layer.handle [as handle_request] (C:\Users\Symlink\Desktop\Chinmoy\practice\practice2\node_modules\express\lib\router\layer.js:95:5)
+        at C:\Users\Symlink\Desktop\Chinmoy\practice\practice2\node_modules\express\lib\router\index.js:284:15
+        at Function.process_params (C:\Users\Symlink\Desktop\Chinmoy\practice\practice2\node_modules\express\lib\router\index.js:346:12)
+        at next (C:\Users\Symlink\Desktop\Chinmoy\practice\practice2\node_modules\express\lib\router\index.js:280:10)
+        at Function.handle (C:\Users\Symlink\Desktop\Chinmoy\practice\practice2\node_modules\express\lib\router\index.js:175:3)
+  }
+]
+[2023-08-10T11:31:54.313] [ERROR] monthly - [
+  {
+    params: { limit: '2', offset: '2' },
+    error: ReferenceError: sortQuery is not defined
+        at exports.List (C:\Users\Symlink\Desktop\Chinmoy\practice\practice2\repository\team.js:49:13)
+        at List (C:\Users\Symlink\Desktop\Chinmoy\practice\practice2\controller\auth.controller.js:4:33)
+        at Layer.handle [as handle_request] (C:\Users\Symlink\Desktop\Chinmoy\practice\practice2\node_modules\express\lib\router\layer.js:95:5)
+        at next (C:\Users\Symlink\Desktop\Chinmoy\practice\practice2\node_modules\express\lib\router\route.js:144:13)
+        at Route.dispatch (C:\Users\Symlink\Desktop\Chinmoy\practice\practice2\node_modules\express\lib\router\route.js:114:3)
+        at Layer.handle [as handle_request] (C:\Users\Symlink\Desktop\Chinmoy\practice\practice2\node_modules\express\lib\router\layer.js:95:5)
+        at C:\Users\Symlink\Desktop\Chinmoy\practice\practice2\node_modules\express\lib\router\index.js:284:15
+        at Function.process_params (C:\Users\Symlink\Desktop\Chinmoy\practice\practice2\node_modules\express\lib\router\index.js:346:12)
+        at next (C:\Users\Symlink\Desktop\Chinmoy\practice\practice2\node_modules\express\lib\router\index.js:280:10)
+        at Function.handle (C:\Users\Symlink\Desktop\Chinmoy\practice\practice2\node_modules\express\lib\router\index.js:175:3)
+  }
+]
+[2023-08-11T17:09:27.937] [ERROR] monthly - [
+  {
+    params: { id: '64d5ed1368f89c7c0bdc317d' },
+    error: ReferenceError: ObjectId is not defined
+        at exports.findOneData (C:\Users\Symlink\Desktop\Chinmoy\practice\practice2\repository\job.repository.js:60:28)
+        at findOne (C:\Users\Symlink\Desktop\Chinmoy\practice\practice2\controller\job.controller.js:8:33)
+        at Layer.handle [as handle_request] (C:\Users\Symlink\Desktop\Chinmoy\practice\practice2\node_modules\express\lib\router\layer.js:95:5)
+        at next (C:\Users\Symlink\Desktop\Chinmoy\practice\practice2\node_modules\express\lib\router\route.js:144:13)
+        at Route.dispatch (C:\Users\Symlink\Desktop\Chinmoy\practice\practice2\node_modules\express\lib\router\route.js:114:3)
+        at Layer.handle [as handle_request] (C:\Users\Symlink\Desktop\Chinmoy\practice\practice2\node_modules\express\lib\router\layer.js:95:5)
+        at C:\Users\Symlink\Desktop\Chinmoy\practice\practice2\node_modules\express\lib\router\index.js:284:15
+        at param (C:\Users\Symlink\Desktop\Chinmoy\practice\practice2\node_modules\express\lib\router\index.js:365:14)
+        at param (C:\Users\Symlink\Desktop\Chinmoy\practice\practice2\node_modules\express\lib\router\index.js:376:14)
+        at Function.process_params (C:\Users\Symlink\Desktop\Chinmoy\practice\practice2\node_modules\express\lib\router\index.js:421:3)
+  }
+]
+[2023-08-11T17:10:34.911] [ERROR] monthly - [
+  {
+    params: { id: '64d5ed1368f89c7c0bdc317d' },
+    error: ReferenceError: ObjectId is not defined
+        at exports.findOneData (C:\Users\Symlink\Desktop\Chinmoy\practice\practice2\repository\job.repository.js:61:28)
+        at findOne (C:\Users\Symlink\Desktop\Chinmoy\practice\practice2\controller\job.controller.js:8:33)
+        at Layer.handle [as handle_request] (C:\Users\Symlink\Desktop\Chinmoy\practice\practice2\node_modules\express\lib\router\layer.js:95:5)
+        at next (C:\Users\Symlink\Desktop\Chinmoy\practice\practice2\node_modules\express\lib\router\route.js:144:13)
+        at Route.dispatch (C:\Users\Symlink\Desktop\Chinmoy\practice\practice2\node_modules\express\lib\router\route.js:114:3)
+        at Layer.handle [as handle_request] (C:\Users\Symlink\Desktop\Chinmoy\practice\practice2\node_modules\express\lib\router\layer.js:95:5)
+        at C:\Users\Symlink\Desktop\Chinmoy\practice\practice2\node_modules\express\lib\router\index.js:284:15
+        at param (C:\Users\Symlink\Desktop\Chinmoy\practice\practice2\node_modules\express\lib\router\index.js:365:14)
+        at param (C:\Users\Symlink\Desktop\Chinmoy\practice\practice2\node_modules\express\lib\router\index.js:376:14)
+        at Function.process_params (C:\Users\Symlink\Desktop\Chinmoy\practice\practice2\node_modules\express\lib\router\index.js:421:3)
+  }
+]
+[2023-08-11T17:28:04.640] [ERROR] monthly - [
+  {
+    params: { id: '64d5ed1368f89c7c0bdc317d' },
+    error: ReferenceError: ObjectId is not defined
+        at exports.findOneData (C:\Users\Symlink\Desktop\Chinmoy\practice\practice2\repository\job.repository.js:60:47)
+        at findOne (C:\Users\Symlink\Desktop\Chinmoy\practice\practice2\controller\job.controller.js:8:33)
+        at Layer.handle [as handle_request] (C:\Users\Symlink\Desktop\Chinmoy\practice\practice2\node_modules\express\lib\router\layer.js:95:5)
+        at next (C:\Users\Symlink\Desktop\Chinmoy\practice\practice2\node_modules\express\lib\router\route.js:144:13)
+        at Route.dispatch (C:\Users\Symlink\Desktop\Chinmoy\practice\practice2\node_modules\express\lib\router\route.js:114:3)
+        at Layer.handle [as handle_request] (C:\Users\Symlink\Desktop\Chinmoy\practice\practice2\node_modules\express\lib\router\layer.js:95:5)
+        at C:\Users\Symlink\Desktop\Chinmoy\practice\practice2\node_modules\express\lib\router\index.js:284:15
+        at param (C:\Users\Symlink\Desktop\Chinmoy\practice\practice2\node_modules\express\lib\router\index.js:365:14)
+        at param (C:\Users\Symlink\Desktop\Chinmoy\practice\practice2\node_modules\express\lib\router\index.js:376:14)
+        at Function.process_params (C:\Users\Symlink\Desktop\Chinmoy\practice\practice2\node_modules\express\lib\router\index.js:421:3)
+  }
+]
+[2023-08-11T17:29:05.414] [ERROR] monthly - [
+  {
+    params: { id: '64d5ed1368f89c7c0bdc317d' },
+    error: ReferenceError: ObjectId is not defined
+        at exports.findOneData (C:\Users\Symlink\Desktop\Chinmoy\practice\practice2\repository\job.repository.js:60:47)
+        at findOne (C:\Users\Symlink\Desktop\Chinmoy\practice\practice2\controller\job.controller.js:8:33)
+        at Layer.handle [as handle_request] (C:\Users\Symlink\Desktop\Chinmoy\practice\practice2\node_modules\express\lib\router\layer.js:95:5)
+        at next (C:\Users\Symlink\Desktop\Chinmoy\practice\practice2\node_modules\express\lib\router\route.js:144:13)
+        at Route.dispatch (C:\Users\Symlink\Desktop\Chinmoy\practice\practice2\node_modules\express\lib\router\route.js:114:3)
+        at Layer.handle [as handle_request] (C:\Users\Symlink\Desktop\Chinmoy\practice\practice2\node_modules\express\lib\router\layer.js:95:5)
+        at C:\Users\Symlink\Desktop\Chinmoy\practice\practice2\node_modules\express\lib\router\index.js:284:15
+        at param (C:\Users\Symlink\Desktop\Chinmoy\practice\practice2\node_modules\express\lib\router\index.js:365:14)
+        at param (C:\Users\Symlink\Desktop\Chinmoy\practice\practice2\node_modules\express\lib\router\index.js:376:14)
+        at Function.process_params (C:\Users\Symlink\Desktop\Chinmoy\practice\practice2\node_modules\express\lib\router\index.js:421:3)
+  }
+]
+[2023-08-11T17:29:20.224] [ERROR] monthly - [
+  {
+    params: { id: '64d5ed1368f89c7c0bdc317d' },
+    error: ReferenceError: ObjectId is not defined
+        at exports.findOneData (C:\Users\Symlink\Desktop\Chinmoy\practice\practice2\repository\job.repository.js:60:47)
+        at findOne (C:\Users\Symlink\Desktop\Chinmoy\practice\practice2\controller\job.controller.js:8:33)
+        at Layer.handle [as handle_request] (C:\Users\Symlink\Desktop\Chinmoy\practice\practice2\node_modules\express\lib\router\layer.js:95:5)
+        at next (C:\Users\Symlink\Desktop\Chinmoy\practice\practice2\node_modules\express\lib\router\route.js:144:13)
+        at Route.dispatch (C:\Users\Symlink\Desktop\Chinmoy\practice\practice2\node_modules\express\lib\router\route.js:114:3)
+        at Layer.handle [as handle_request] (C:\Users\Symlink\Desktop\Chinmoy\practice\practice2\node_modules\express\lib\router\layer.js:95:5)
+        at C:\Users\Symlink\Desktop\Chinmoy\practice\practice2\node_modules\express\lib\router\index.js:284:15
+        at param (C:\Users\Symlink\Desktop\Chinmoy\practice\practice2\node_modules\express\lib\router\index.js:365:14)
+        at param (C:\Users\Symlink\Desktop\Chinmoy\practice\practice2\node_modules\express\lib\router\index.js:376:14)
+        at Function.process_params (C:\Users\Symlink\Desktop\Chinmoy\practice\practice2\node_modules\express\lib\router\index.js:421:3)
+  }
+]
+[2023-08-11T17:31:45.341] [ERROR] monthly - [
+  {
+    params: { id: '64d5ed1368f89c7c0bdc317d' },
+    error: ReferenceError: limit is not defined
+        at exports.findOneData (C:\Users\Symlink\Desktop\Chinmoy\practice\practice2\repository\job.repository.js:90:14)
+        at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+        at async findOne (C:\Users\Symlink\Desktop\Chinmoy\practice\practice2\controller\job.controller.js:8:16)
+  }
+]
+[2023-08-21T00:52:55.116] [ERROR] monthly - [
+  {
+    params: {},
+    error: ReferenceError: User is not defined
+        at exports.List (E:\Testing_express\postApi\practice2\repository\product.repository.js:162:25)
+        at Product (E:\Testing_express\postApi\practice2\controller\product.controller.js:3:33)
+        at Layer.handle [as handle_request] (E:\Testing_express\postApi\practice2\node_modules\express\lib\router\layer.js:95:5)
+        at next (E:\Testing_express\postApi\practice2\node_modules\express\lib\router\route.js:144:13)
+        at Route.dispatch (E:\Testing_express\postApi\practice2\node_modules\express\lib\router\route.js:114:3)
+        at Layer.handle [as handle_request] (E:\Testing_express\postApi\practice2\node_modules\express\lib\router\layer.js:95:5)
+        at E:\Testing_express\postApi\practice2\node_modules\express\lib\router\index.js:284:15
+        at Function.process_params (E:\Testing_express\postApi\practice2\node_modules\express\lib\router\index.js:346:12)
+        at next (E:\Testing_express\postApi\practice2\node_modules\express\lib\router\index.js:280:10)
+        at Function.handle (E:\Testing_express\postApi\practice2\node_modules\express\lib\router\index.js:175:3)
+  }
+]
+[2023-08-21T00:54:03.571] [ERROR] monthly - [
+  {
+    params: {},
+    error: ReferenceError: User is not defined
+        at exports.List (E:\Testing_express\postApi\practice2\repository\product.repository.js:163:25)
+        at Product (E:\Testing_express\postApi\practice2\controller\product.controller.js:3:33)
+        at Layer.handle [as handle_request] (E:\Testing_express\postApi\practice2\node_modules\express\lib\router\layer.js:95:5)
+        at next (E:\Testing_express\postApi\practice2\node_modules\express\lib\router\route.js:144:13)
+        at Route.dispatch (E:\Testing_express\postApi\practice2\node_modules\express\lib\router\route.js:114:3)
+        at Layer.handle [as handle_request] (E:\Testing_express\postApi\practice2\node_modules\express\lib\router\layer.js:95:5)
+        at E:\Testing_express\postApi\practice2\node_modules\express\lib\router\index.js:284:15
+        at Function.process_params (E:\Testing_express\postApi\practice2\node_modules\express\lib\router\index.js:346:12)
+        at next (E:\Testing_express\postApi\practice2\node_modules\express\lib\router\index.js:280:10)
+        at Function.handle (E:\Testing_express\postApi\practice2\node_modules\express\lib\router\index.js:175:3)
+  }
+]
+[2023-08-21T00:54:27.619] [ERROR] monthly - [
+  {
+    params: {},
+    error: ReferenceError: User is not defined
+        at exports.List (E:\Testing_express\postApi\practice2\repository\product.repository.js:164:25)
+        at Product (E:\Testing_express\postApi\practice2\controller\product.controller.js:3:33)
+        at Layer.handle [as handle_request] (E:\Testing_express\postApi\practice2\node_modules\express\lib\router\layer.js:95:5)
+        at next (E:\Testing_express\postApi\practice2\node_modules\express\lib\router\route.js:144:13)
+        at Route.dispatch (E:\Testing_express\postApi\practice2\node_modules\express\lib\router\route.js:114:3)
+        at Layer.handle [as handle_request] (E:\Testing_express\postApi\practice2\node_modules\express\lib\router\layer.js:95:5)
+        at E:\Testing_express\postApi\practice2\node_modules\express\lib\router\index.js:284:15
+        at Function.process_params (E:\Testing_express\postApi\practice2\node_modules\express\lib\router\index.js:346:12)
+        at next (E:\Testing_express\postApi\practice2\node_modules\express\lib\router\index.js:280:10)
+        at Function.handle (E:\Testing_express\postApi\practice2\node_modules\express\lib\router\index.js:175:3)
+  }
+]
+[2023-08-21T00:54:47.939] [ERROR] monthly - [
+  {
+    params: {},
+    error: ReferenceError: User is not defined
+        at exports.List (E:\Testing_express\postApi\practice2\repository\product.repository.js:164:25)
+        at Product (E:\Testing_express\postApi\practice2\controller\product.controller.js:3:33)
+        at Layer.handle [as handle_request] (E:\Testing_express\postApi\practice2\node_modules\express\lib\router\layer.js:95:5)
+        at next (E:\Testing_express\postApi\practice2\node_modules\express\lib\router\route.js:144:13)
+        at Route.dispatch (E:\Testing_express\postApi\practice2\node_modules\express\lib\router\route.js:114:3)
+        at Layer.handle [as handle_request] (E:\Testing_express\postApi\practice2\node_modules\express\lib\router\layer.js:95:5)
+        at E:\Testing_express\postApi\practice2\node_modules\express\lib\router\index.js:284:15
+        at Function.process_params (E:\Testing_express\postApi\practice2\node_modules\express\lib\router\index.js:346:12)
+        at next (E:\Testing_express\postApi\practice2\node_modules\express\lib\router\index.js:280:10)
+        at Function.handle (E:\Testing_express\postApi\practice2\node_modules\express\lib\router\index.js:175:3)
+  }
+]
+[2023-08-21T00:55:32.957] [ERROR] monthly - [
+  {
+    params: {},
+    error: ReferenceError: User is not defined
+        at exports.List (E:\Testing_express\postApi\practice2\repository\product.repository.js:164:25)
+        at Product (E:\Testing_express\postApi\practice2\controller\product.controller.js:3:33)
+        at Layer.handle [as handle_request] (E:\Testing_express\postApi\practice2\node_modules\express\lib\router\layer.js:95:5)
+        at next (E:\Testing_express\postApi\practice2\node_modules\express\lib\router\route.js:144:13)
+        at Route.dispatch (E:\Testing_express\postApi\practice2\node_modules\express\lib\router\route.js:114:3)
+        at Layer.handle [as handle_request] (E:\Testing_express\postApi\practice2\node_modules\express\lib\router\layer.js:95:5)
+        at E:\Testing_express\postApi\practice2\node_modules\express\lib\router\index.js:284:15
+        at Function.process_params (E:\Testing_express\postApi\practice2\node_modules\express\lib\router\index.js:346:12)
+        at next (E:\Testing_express\postApi\practice2\node_modules\express\lib\router\index.js:280:10)
+        at Function.handle (E:\Testing_express\postApi\practice2\node_modules\express\lib\router\index.js:175:3)
+  }
+]
+[2023-08-21T00:55:44.497] [ERROR] monthly - [
+  {
+    params: {},
+    error: ReferenceError: User is not defined
+        at exports.List (E:\Testing_express\postApi\practice2\repository\product.repository.js:164:25)
+        at Product (E:\Testing_express\postApi\practice2\controller\product.controller.js:3:33)
+        at Layer.handle [as handle_request] (E:\Testing_express\postApi\practice2\node_modules\express\lib\router\layer.js:95:5)
+        at next (E:\Testing_express\postApi\practice2\node_modules\express\lib\router\route.js:144:13)
+        at Route.dispatch (E:\Testing_express\postApi\practice2\node_modules\express\lib\router\route.js:114:3)
+        at Layer.handle [as handle_request] (E:\Testing_express\postApi\practice2\node_modules\express\lib\router\layer.js:95:5)
+        at E:\Testing_express\postApi\practice2\node_modules\express\lib\router\index.js:284:15
+        at Function.process_params (E:\Testing_express\postApi\practice2\node_modules\express\lib\router\index.js:346:12)
+        at next (E:\Testing_express\postApi\practice2\node_modules\express\lib\router\index.js:280:10)
+        at Function.handle (E:\Testing_express\postApi\practice2\node_modules\express\lib\router\index.js:175:3)
+  }
+]
+[2023-08-21T00:55:45.518] [ERROR] monthly - [
+  {
+    params: {},
+    error: ReferenceError: User is not defined
+        at exports.List (E:\Testing_express\postApi\practice2\repository\product.repository.js:164:25)
+        at Product (E:\Testing_express\postApi\practice2\controller\product.controller.js:3:33)
+        at Layer.handle [as handle_request] (E:\Testing_express\postApi\practice2\node_modules\express\lib\router\layer.js:95:5)
+        at next (E:\Testing_express\postApi\practice2\node_modules\express\lib\router\route.js:144:13)
+        at Route.dispatch (E:\Testing_express\postApi\practice2\node_modules\express\lib\router\route.js:114:3)
+        at Layer.handle [as handle_request] (E:\Testing_express\postApi\practice2\node_modules\express\lib\router\layer.js:95:5)
+        at E:\Testing_express\postApi\practice2\node_modules\express\lib\router\index.js:284:15
+        at Function.process_params (E:\Testing_express\postApi\practice2\node_modules\express\lib\router\index.js:346:12)
+        at next (E:\Testing_express\postApi\practice2\node_modules\express\lib\router\index.js:280:10)
+        at Function.handle (E:\Testing_express\postApi\practice2\node_modules\express\lib\router\index.js:175:3)
+  }
+]
+[2023-08-21T00:55:46.102] [ERROR] monthly - [
+  {
+    params: {},
+    error: ReferenceError: User is not defined
+        at exports.List (E:\Testing_express\postApi\practice2\repository\product.repository.js:164:25)
+        at Product (E:\Testing_express\postApi\practice2\controller\product.controller.js:3:33)
+        at Layer.handle [as handle_request] (E:\Testing_express\postApi\practice2\node_modules\express\lib\router\layer.js:95:5)
+        at next (E:\Testing_express\postApi\practice2\node_modules\express\lib\router\route.js:144:13)
+        at Route.dispatch (E:\Testing_express\postApi\practice2\node_modules\express\lib\router\route.js:114:3)
+        at Layer.handle [as handle_request] (E:\Testing_express\postApi\practice2\node_modules\express\lib\router\layer.js:95:5)
+        at E:\Testing_express\postApi\practice2\node_modules\express\lib\router\index.js:284:15
+        at Function.process_params (E:\Testing_express\postApi\practice2\node_modules\express\lib\router\index.js:346:12)
+        at next (E:\Testing_express\postApi\practice2\node_modules\express\lib\router\index.js:280:10)
+        at Function.handle (E:\Testing_express\postApi\practice2\node_modules\express\lib\router\index.js:175:3)
+  }
+]
+[2023-08-21T00:55:46.543] [ERROR] monthly - [
+  {
+    params: {},
+    error: ReferenceError: User is not defined
+        at exports.List (E:\Testing_express\postApi\practice2\repository\product.repository.js:164:25)
+        at Product (E:\Testing_express\postApi\practice2\controller\product.controller.js:3:33)
+        at Layer.handle [as handle_request] (E:\Testing_express\postApi\practice2\node_modules\express\lib\router\layer.js:95:5)
+        at next (E:\Testing_express\postApi\practice2\node_modules\express\lib\router\route.js:144:13)
+        at Route.dispatch (E:\Testing_express\postApi\practice2\node_modules\express\lib\router\route.js:114:3)
+        at Layer.handle [as handle_request] (E:\Testing_express\postApi\practice2\node_modules\express\lib\router\layer.js:95:5)
+        at E:\Testing_express\postApi\practice2\node_modules\express\lib\router\index.js:284:15
+        at Function.process_params (E:\Testing_express\postApi\practice2\node_modules\express\lib\router\index.js:346:12)
+        at next (E:\Testing_express\postApi\practice2\node_modules\express\lib\router\index.js:280:10)
+        at Function.handle (E:\Testing_express\postApi\practice2\node_modules\express\lib\router\index.js:175:3)
+  }
+]
+[2023-08-21T00:56:09.886] [ERROR] monthly - [
+  {
+    params: {},
+    error: ReferenceError: User is not defined
+        at exports.List (E:\Testing_express\postApi\practice2\repository\product.repository.js:164:25)
+        at Product (E:\Testing_express\postApi\practice2\controller\product.controller.js:3:33)
+        at Layer.handle [as handle_request] (E:\Testing_express\postApi\practice2\node_modules\express\lib\router\layer.js:95:5)
+        at next (E:\Testing_express\postApi\practice2\node_modules\express\lib\router\route.js:144:13)
+        at Route.dispatch (E:\Testing_express\postApi\practice2\node_modules\express\lib\router\route.js:114:3)
+        at Layer.handle [as handle_request] (E:\Testing_express\postApi\practice2\node_modules\express\lib\router\layer.js:95:5)
+        at E:\Testing_express\postApi\practice2\node_modules\express\lib\router\index.js:284:15
+        at Function.process_params (E:\Testing_express\postApi\practice2\node_modules\express\lib\router\index.js:346:12)
+        at next (E:\Testing_express\postApi\practice2\node_modules\express\lib\router\index.js:280:10)
+        at Function.handle (E:\Testing_express\postApi\practice2\node_modules\express\lib\router\index.js:175:3)
+  }
+]
+[2023-08-21T00:56:55.318] [ERROR] monthly - [
+  {
+    params: {},
+    error: ReferenceError: User is not defined
+        at exports.List (E:\Testing_express\postApi\practice2\repository\product.repository.js:164:25)
+        at Product (E:\Testing_express\postApi\practice2\controller\product.controller.js:3:33)
+        at Layer.handle [as handle_request] (E:\Testing_express\postApi\practice2\node_modules\express\lib\router\layer.js:95:5)
+        at next (E:\Testing_express\postApi\practice2\node_modules\express\lib\router\route.js:144:13)
+        at Route.dispatch (E:\Testing_express\postApi\practice2\node_modules\express\lib\router\route.js:114:3)
+        at Layer.handle [as handle_request] (E:\Testing_express\postApi\practice2\node_modules\express\lib\router\layer.js:95:5)
+        at E:\Testing_express\postApi\practice2\node_modules\express\lib\router\index.js:284:15
+        at Function.process_params (E:\Testing_express\postApi\practice2\node_modules\express\lib\router\index.js:346:12)
+        at next (E:\Testing_express\postApi\practice2\node_modules\express\lib\router\index.js:280:10)
+        at Function.handle (E:\Testing_express\postApi\practice2\node_modules\express\lib\router\index.js:175:3)
+  }
+]
+[2023-08-21T01:22:14.595] [ERROR] monthly - [
+  {
+    params: {},
+    error: ReferenceError: User is not defined
+        at exports.List (E:\Testing_express\postApi\practice2\repository\product.repository.js:164:25)
+        at Product (E:\Testing_express\postApi\practice2\controller\product.controller.js:3:33)
+        at Layer.handle [as handle_request] (E:\Testing_express\postApi\practice2\node_modules\express\lib\router\layer.js:95:5)
+        at next (E:\Testing_express\postApi\practice2\node_modules\express\lib\router\route.js:144:13)
+        at Route.dispatch (E:\Testing_express\postApi\practice2\node_modules\express\lib\router\route.js:114:3)
+        at Layer.handle [as handle_request] (E:\Testing_express\postApi\practice2\node_modules\express\lib\router\layer.js:95:5)
+        at E:\Testing_express\postApi\practice2\node_modules\express\lib\router\index.js:284:15
+        at Function.process_params (E:\Testing_express\postApi\practice2\node_modules\express\lib\router\index.js:346:12)
+        at next (E:\Testing_express\postApi\practice2\node_modules\express\lib\router\index.js:280:10)
+        at Function.handle (E:\Testing_express\postApi\practice2\node_modules\express\lib\router\index.js:175:3)
+  }
+]
+[2023-08-21T01:23:17.127] [ERROR] monthly - [
+  {
+    params: {},
+    error: ReferenceError: User is not defined
+        at exports.List (E:\Testing_express\postApi\practice2\repository\product.repository.js:164:25)
+        at Product (E:\Testing_express\postApi\practice2\controller\product.controller.js:3:33)
+        at Layer.handle [as handle_request] (E:\Testing_express\postApi\practice2\node_modules\express\lib\router\layer.js:95:5)
+        at next (E:\Testing_express\postApi\practice2\node_modules\express\lib\router\route.js:144:13)
+        at Route.dispatch (E:\Testing_express\postApi\practice2\node_modules\express\lib\router\route.js:114:3)
+        at Layer.handle [as handle_request] (E:\Testing_express\postApi\practice2\node_modules\express\lib\router\layer.js:95:5)
+        at E:\Testing_express\postApi\practice2\node_modules\express\lib\router\index.js:284:15
+        at Function.process_params (E:\Testing_express\postApi\practice2\node_modules\express\lib\router\index.js:346:12)
+        at next (E:\Testing_express\postApi\practice2\node_modules\express\lib\router\index.js:280:10)
+        at Function.handle (E:\Testing_express\postApi\practice2\node_modules\express\lib\router\index.js:175:3)
+  }
+]
+[2023-08-21T01:24:33.620] [ERROR] monthly - [
+  {
+    params: {},
+    error: ReferenceError: User is not defined
+        at exports.List (E:\Testing_express\postApi\practice2\repository\product.repository.js:164:25)
+        at Product (E:\Testing_express\postApi\practice2\controller\product.controller.js:3:33)
+        at Layer.handle [as handle_request] (E:\Testing_express\postApi\practice2\node_modules\express\lib\router\layer.js:95:5)
+        at next (E:\Testing_express\postApi\practice2\node_modules\express\lib\router\route.js:144:13)
+        at Route.dispatch (E:\Testing_express\postApi\practice2\node_modules\express\lib\router\route.js:114:3)
+        at Layer.handle [as handle_request] (E:\Testing_express\postApi\practice2\node_modules\express\lib\router\layer.js:95:5)
+        at E:\Testing_express\postApi\practice2\node_modules\express\lib\router\index.js:284:15
+        at Function.process_params (E:\Testing_express\postApi\practice2\node_modules\express\lib\router\index.js:346:12)
+        at next (E:\Testing_express\postApi\practice2\node_modules\express\lib\router\index.js:280:10)
+        at Function.handle (E:\Testing_express\postApi\practice2\node_modules\express\lib\router\index.js:175:3)
+  }
+]
+[2023-08-21T01:25:12.750] [ERROR] monthly - [
+  {
+    params: {},
+    error: ReferenceError: selectValue is not defined
+        at exports.List (E:\Testing_express\postApi\practice2\repository\product.repository.js:148:20)
+        at Product (E:\Testing_express\postApi\practice2\controller\product.controller.js:3:33)
+        at Layer.handle [as handle_request] (E:\Testing_express\postApi\practice2\node_modules\express\lib\router\layer.js:95:5)
+        at next (E:\Testing_express\postApi\practice2\node_modules\express\lib\router\route.js:144:13)
+        at Route.dispatch (E:\Testing_express\postApi\practice2\node_modules\express\lib\router\route.js:114:3)
+        at Layer.handle [as handle_request] (E:\Testing_express\postApi\practice2\node_modules\express\lib\router\layer.js:95:5)
+        at E:\Testing_express\postApi\practice2\node_modules\express\lib\router\index.js:284:15
+        at Function.process_params (E:\Testing_express\postApi\practice2\node_modules\express\lib\router\index.js:346:12)
+        at next (E:\Testing_express\postApi\practice2\node_modules\express\lib\router\index.js:280:10)
+        at Function.handle (E:\Testing_express\postApi\practice2\node_modules\express\lib\router\index.js:175:3)
+  }
+]
+[2023-08-21T01:25:58.317] [ERROR] monthly - [
+  {
+    params: {},
+    error: ReferenceError: User is not defined
+        at exports.List (E:\Testing_express\postApi\practice2\repository\product.repository.js:164:25)
+        at Product (E:\Testing_express\postApi\practice2\controller\product.controller.js:3:33)
+        at Layer.handle [as handle_request] (E:\Testing_express\postApi\practice2\node_modules\express\lib\router\layer.js:95:5)
+        at next (E:\Testing_express\postApi\practice2\node_modules\express\lib\router\route.js:144:13)
+        at Route.dispatch (E:\Testing_express\postApi\practice2\node_modules\express\lib\router\route.js:114:3)
+        at Layer.handle [as handle_request] (E:\Testing_express\postApi\practice2\node_modules\express\lib\router\layer.js:95:5)
+        at E:\Testing_express\postApi\practice2\node_modules\express\lib\router\index.js:284:15
+        at Function.process_params (E:\Testing_express\postApi\practice2\node_modules\express\lib\router\index.js:346:12)
+        at next (E:\Testing_express\postApi\practice2\node_modules\express\lib\router\index.js:280:10)
+        at Function.handle (E:\Testing_express\postApi\practice2\node_modules\express\lib\router\index.js:175:3)
+  }
+]

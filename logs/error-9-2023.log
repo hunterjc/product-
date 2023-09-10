@@ -1,0 +1,87 @@
+[2023-09-10T14:08:33.996] [ERROR] monthly - [
+  {
+    params: {
+      _readableState: [ReadableState],
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: undefined,
+      socket: [Socket],
+      httpVersionMajor: 1,
+      httpVersionMinor: 1,
+      httpVersion: '1.1',
+      complete: true,
+      rawHeaders: [Array],
+      rawTrailers: [],
+      joinDuplicateHeaders: undefined,
+      aborted: false,
+      upgrade: false,
+      url: '/newTask/list',
+      method: 'GET',
+      statusCode: null,
+      statusMessage: null,
+      client: [Socket],
+      _consuming: false,
+      _dumped: false,
+      next: [Function: next],
+      baseUrl: '/api/v1',
+      originalUrl: '/api/v1/newTask/list',
+      _parsedUrl: [Url],
+      params: {},
+      query: {},
+      res: [ServerResponse],
+      logIn: [Function (anonymous)],
+      login: [Function (anonymous)],
+      logOut: [Function (anonymous)],
+      logout: [Function (anonymous)],
+      isAuthenticated: [Function (anonymous)],
+      isUnauthenticated: [Function (anonymous)],
+      _sessionManager: [SessionManager],
+      _passport: [Object],
+      body: {},
+      _parsedOriginalUrl: [Url],
+      route: [Route],
+      [Symbol(kCapture)]: false,
+      [Symbol(kHeaders)]: [Object],
+      [Symbol(kHeadersCount)]: 16,
+      [Symbol(kTrailers)]: null,
+      [Symbol(kTrailersCount)]: 0
+    },
+    error: ReferenceError: Product is not defined
+        at Object.List (E:\Testing_express\postApi\practice2\repository\newTask.repository.js:60:26)
+        at newTaskList (E:\Testing_express\postApi\practice2\controller\newTask.controller.js:3:33)
+        at Layer.handle [as handle_request] (E:\Testing_express\postApi\practice2\node_modules\express\lib\router\layer.js:95:5)
+        at next (E:\Testing_express\postApi\practice2\node_modules\express\lib\router\route.js:144:13)
+        at Route.dispatch (E:\Testing_express\postApi\practice2\node_modules\express\lib\router\route.js:114:3)
+        at Layer.handle [as handle_request] (E:\Testing_express\postApi\practice2\node_modules\express\lib\router\layer.js:95:5)
+        at E:\Testing_express\postApi\practice2\node_modules\express\lib\router\index.js:284:15
+        at Function.process_params (E:\Testing_express\postApi\practice2\node_modules\express\lib\router\index.js:346:12)
+        at next (E:\Testing_express\postApi\practice2\node_modules\express\lib\router\index.js:280:10)
+        at Function.handle (E:\Testing_express\postApi\practice2\node_modules\express\lib\router\index.js:175:3)
+  }
+]
+[2023-09-11T01:33:19.087] [ERROR] monthly - [
+  {
+    params: {},
+    error: MongoServerSelectionError: getaddrinfo ENOTFOUND ac-jukmhsd-shard-00-00.wczn5yn.mongodb.net
+        at Timeout._onTimeout (E:\Testing_express\postApi\practice2\node_modules\mongodb\lib\sdam\topology.js:278:38)
+        at listOnTimeout (node:internal/timers:569:17)
+        at process.processTimers (node:internal/timers:512:7) {
+      reason: [TopologyDescription],
+      code: undefined,
+      [Symbol(errorLabels)]: Set(0) {}
+    }
+  }
+]
+[2023-09-11T01:33:37.265] [ERROR] monthly - [
+  {
+    params: {},
+    error: MongoServerSelectionError: getaddrinfo ENOTFOUND ac-jukmhsd-shard-00-00.wczn5yn.mongodb.net
+        at Timeout._onTimeout (E:\Testing_express\postApi\practice2\node_modules\mongodb\lib\sdam\topology.js:278:38)
+        at listOnTimeout (node:internal/timers:569:17)
+        at process.processTimers (node:internal/timers:512:7) {
+      reason: [TopologyDescription],
+      code: undefined,
+      [Symbol(errorLabels)]: Set(0) {}
+    }
+  }
+]
