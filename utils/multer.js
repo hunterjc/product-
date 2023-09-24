@@ -1,6 +1,14 @@
 const multer = require("multer");
 const path = require("path");
-const ALLOW_FILE_TYPES = [".jpg", ".jpeg", ".png", ".pdf", ".webp", ".mp3"];
+const ALLOW_FILE_TYPES = [
+  ".jpg",
+  ".jpeg",
+  ".png",
+  ".pdf",
+  ".webp",
+  ".mp3",
+  ".csv",
+];
 // Multer config
 const uploadDisk = multer({
   storage: multer.diskStorage({}),
