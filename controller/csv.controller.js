@@ -9,6 +9,10 @@ const csvAdd = async (req, res) => {
   return res.status(data.status).send(data);
 };
 
+const csvImport = async (req, res) => {
+  const data = await repository.csvImport(req);
+  return res.status(data.status || 200).send(data);
+};
 // const faqEdit = async (req, res) => {
 //   const data = await repository.Edit(req);
 //   return res.status(data.status).send(data);
@@ -21,6 +25,7 @@ const csvAdd = async (req, res) => {
 module.exports = {
   csvList,
   csvAdd,
+  csvImport,
   //   faqEdit,
   //   faqRemove,
 };

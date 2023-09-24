@@ -7,7 +7,13 @@ const faqType = require("../model/faqCategory.mode");
 const { uploadCloudinary } = require("../utils/cloudinary.js");
 const { convertFieldsToAggregateObject } = require("../helper/index");
 const { Parser } = require("json2csv");
+const csvParser = require("csv-parser");
 const fs = require("fs");
+const multer = require("multer");
+const os = require("os");
+const upload = multer({ dest: os.tmpdir() });
+const { promisify } = require("util");
+const parseCsv = promisify(csvParser);
 
 exports.List = async (params) => {
   try {
@@ -174,6 +180,74 @@ exports.Remove = async (req) => {
     return { status: 200, message: "deleted ", data: del };
   } catch (err) {
     return { status: 500, message: "not deleted" };
+  }
+};
+exports.csvImport1 = async (req) => {
+  try {
+    if (!req.file) {
+      return { status: 400, data: "No CSV file uploaded." };
+    }
+
+    const csvData = req.file.buffer.toString("utf-8");
+    const results = [];
+
+    // Use 'await' to parse the CSV data as a promise
+    await parseCsv(csvData, { separator: "," })
+      .on("data", (row) => {
+        results.push(row);
+      })
+      .on("end", () => {
+        console.log("CSV parsing is complete.");
+      })
+      .on("error", (error) => {
+        console.error("An error occurred:", error.message);
+        throw { status: 500, data: "An error occurred during CSV parsing." };
+      });
+
+    return { status: 200, message: "CSV parse completed.", data: results };
+  } catch (error) {
+    console.error(error);
+    return { status: 500, message: "CSV file not imported." };
+  }
+};
+exports.csvImport = async (req) => {
+  try {
+    if (!req.file) {
+      return { status: 400, data: "no csv file uploaded" };
+    }
+
+    const csvData = req.file.buffer;
+    const results = [];
+
+    // Create a readable stream from the CSV data
+    const readableStream = require("stream").Readable.from(csvData);
+
+    readableStream
+      .pipe(csvParser({ separator: "," })) // Use csv() to parse the CSV data
+      .on("data", (row) => {
+        results.push(row);
+      })
+      .on("end", () => {
+        console.log("CSV parsing is complete.");
+      })
+      .on("error", (error) => {
+        console.error("An error occurred:", error.message);
+        return { status: 500, data: "An error occurred during CSV parsing." };
+      });
+    return {
+      status: 200,
+      message: "working",
+      data: results,
+    };
+  } catch (error) {
+    // try {
+    //   return {
+    //     status: 200,
+    //     message: "working",
+    //     data: "results",
+    //   };}
+    console.error(error);
+    return { status: 500, message: "CSV file not imported." };
   }
 };
 // // try {
