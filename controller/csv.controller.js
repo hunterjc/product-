@@ -1,10 +1,10 @@
 const repository = require("../repository/csv.repository");
-const faqList = async (req, res) => {
+const csvList = async (req, res) => {
   const data = await repository.List(req);
   return res.status(data.status).send(data);
 };
 
-const faqAdd = async (req, res) => {
+const csvAdd = async (req, res) => {
   const data = await repository.Add(req);
   return res.status(data.status).send(data);
 };
@@ -19,8 +19,8 @@ const faqAdd = async (req, res) => {
 // };
 
 module.exports = {
-  faqList,
-  faqAdd,
+  csvList,
+  csvAdd,
   //   faqEdit,
   //   faqRemove,
 };
